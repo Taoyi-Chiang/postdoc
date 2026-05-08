@@ -1,3 +1,4 @@
+```mermaid
 gantt
     title 2026/07–2030/12 申請與職涯規劃甘特圖（千里馬・FWO・MSCA・ERC/CR/MCF）
     dateFormat  YYYY-MM-DD
@@ -37,3 +38,4 @@ gantt
     section 中長期布局
     準備ERC StG／CR／MCF profile     :profile, 2029-01-01, 2029-12-31
     正式申請ERC StG／CNRS CR／MCF／臺灣教職 :applications, 2030-01-01, 2030-12-31
+```
