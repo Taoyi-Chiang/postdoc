@@ -7,7 +7,7 @@ gantt
     section 前置節點
     千里馬已送件                    :milestone, ksp_submit, 2026-07-31, 1d
     千里馬放榜                      :milestone, ksp_result, 2026-11-30, 1d
-    博士畢業                        :milestone, phd, 2027-06-30, 1d
+    博士畢業                        :milestone, phd, 2027-06-1, 1d
 
     section 千里馬方案（若錄取）
     千里馬啟動／180天安全墊          :ksp_180, 2027-09-01, 2028-02-28
