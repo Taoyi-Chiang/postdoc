@@ -1,6 +1,3 @@
-# TIMELINE
-
-```mermaid
 gantt
     title 2026/07–2030/12 申請與職涯規劃甘特圖（千里馬・FWO・MSCA・ERC/CR/MCF）
     dateFormat  YYYY-MM-DD
@@ -15,6 +12,13 @@ gantt
     千里馬啟動／180天安全墊          :ksp_180, 2027-09-01, 2028-02-28
     可申請中止／轉接                :milestone, ksp_stop, 2028-03-01, 1d
     若未轉接則可續做到一年           :ksp_1y, 2028-03-01, 2028-08-31
+
+    section FWO申請與結果
+    FWO 2027 call 開放              :milestone, fwo_call_open, 2026-09-15, 1d
+    送 FWO 2027                     :milestone, fwo_submit, 2026-11-15, 1d
+    FWO 預選                        :fwo_preselect, 2027-03-20, 2027-04-05
+    FWO 面試                        :fwo_interview, 2027-04-20, 2027-05-10
+    FWO 公告結果                    :milestone, fwo_result, 2027-05-21, 1d
 
     section FWO方案（主線，若錄取）
     FWO起聘（或11月）                :milestone, fwo_start, 2027-10-01, 1d
@@ -33,4 +37,3 @@ gantt
     section 中長期布局
     準備ERC StG／CR／MCF profile     :profile, 2029-01-01, 2029-12-31
     正式申請ERC StG／CNRS CR／MCF／臺灣教職 :applications, 2030-01-01, 2030-12-31
-```
