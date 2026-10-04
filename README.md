@@ -1,39 +1,45 @@
+# 博士後規劃路線圖
+
+更新日期：2026-10-04。
+
+比利時主線為已送件的國科會千里馬方案。MSCA PF 目前以 2028 年 9 月申請、2029–2031 年執行為個人目標；實際截止日與執行起迄月份待確認。FWO 2027 已移出現行申請路線。
+
+圖中以月份呈現已送件紀錄與預計節點，年月不代表確切送件截止日或事件日期。千里馬預計於 2026 年 10 月底公布面試名單、11 月底公布最終結果；2027 年 9 月起的執行安排以通過及核定結果為前提。
+
 ```mermaid
 gantt
-    title 2026/07–2030/12 各獎助最長期程與可能轉換時間點
-    dateFormat  YYYY-MM-DD
+    title 博士畢業、千里馬與 MSCA PF 規劃
+    dateFormat  YYYY-MM
     axisFormat  %Y/%m
 
-    section 前置判斷
-    千里馬已送件                    :milestone, ksp_submit, 2026-07-31, 1d
-    千里馬放榜：先取得保底           :milestone, ksp_result, 2026-11-30, 1d
-    博士畢業                        :milestone, phd, 2027-06-30, 1d
+    section 千里馬審查
+    千里馬已送件                    :done, milestone, ksp_submit, 2026-07, 0d
+    面試名單預計公布                :milestone, ksp_interview, 2026-10, 0d
+    最終結果預計公布                :milestone, ksp_result, 2026-11, 0d
 
-    section 千里馬博士後｜最長兩年
-    千里馬最長執行期                :ksp_full, 2027-09-01, 2029-08-31
-    千里馬180天安全期滿：可評估中止   :milestone, ksp_180, 2028-03-01, 1d
-    若MSCA上，可評估千里馬轉MSCA     :milestone, ksp_to_msca, 2028-03-15, 1d
-    千里馬一年期滿：可自然轉接        :milestone, ksp_1y, 2028-09-01, 1d
-    千里馬兩年期滿：完整結案          :milestone, ksp_2y_end, 2029-08-31, 1d
+    section 畢業目標
+    博士口試                        :milestone, phd_defense, 2027-05, 0d
+    博士畢業                        :milestone, phd, 2027-06, 0d
 
-    section FWO博士後｜最長三年
-    FWO 2027 call送件               :milestone, fwo_submit, 2026-11-15, 1d
-    FWO放榜：出發前決定千里馬或FWO    :milestone, fwo_result, 2027-05-21, 1d
-    FWO最長執行期                   :fwo_full, 2027-10-01, 2030-09-30
-    FWO滿一年：最禮貌轉MSCA起點       :milestone, fwo_1y, 2028-10-01, 1d
-    FWO轉MSCA協調窗口結束            :milestone, fwo_transition_end, 2029-01-31, 1d
-    FWO第二年期滿：再評估職涯轉換      :milestone, fwo_2y, 2029-10-01, 1d
-    FWO三年期滿：完整結案             :milestone, fwo_3y_end, 2030-09-30, 1d
+    section 千里馬執行目標
+    預計執行期（最長兩年）          :ksp_full, 2027-09, 2029-09
+    一年期滿                        :milestone, ksp_1y, 2028-09, 0d
+    兩年期滿                        :milestone, ksp_2y_end, 2029-09, 0d
 
-    section MSCA PF 2027｜通常兩年
-    送MSCA PF 2027                 :milestone, msca_submit, 2027-09-08, 1d
-    MSCA放榜：判斷是否轉接            :milestone, msca_result, 2028-02-15, 1d
-    MSCA可開始期間                  :msca_start_window, 2028-05-01, 2029-09-01
-    建議開始MSCA窗口                :crit, msca_best_start, 2028-10-01, 2028-11-30
-    MSCA最長執行期                  :msca_full, 2028-10-01, 2030-09-30
-    MSCA期滿：銜接ERC／CR／MCF        :milestone, msca_end, 2030-09-30, 1d
-
-    section 2030後續申請
-    準備ERC StG／CR／MCF profile     :profile, 2029-01-01, 2029-12-31
-    2030正式申請ERC／CNRS CR／MCF／臺灣教職 :career_apps, 2030-01-01, 2030-12-31
+    section MSCA PF 申請目標
+    MSCA PF 2028 申請目標            :milestone, msca_submit, 2028-09, 0d
 ```
+
+千里馬執行區間以 2027 年 9 月至 2029 年 8 月表示最長兩年的規劃，圖中 2029 年 9 月為區間終點。MSCA 的 2029–2031 年執行目標尚未確定起迄月份，暫不畫執行區間或轉接日期。
+
+## 千里馬未通過時的 Plan B
+
+下列方案仍待評估，申請與起聘日期未定，先列為候選路徑。
+
+| 候選路徑 | 目前狀態 | 待確認事項 |
+| --- | --- | --- |
+| 國科會「補助延攬客座科技人才」博士級研究人員管道 | 評估中，作為臺灣博士後候選 | 申請資格、聘任機構、主持人及申請時程 |
+| 法國博士後聘任／相近補助制度 | 評估中 | 個別研究計畫或機構職缺、資格、經費及起聘時程 |
+| JSPS 博士後（東京優先） | 候選 | 接待機構、適用梯次、申請與起聘時程 |
+
+FWO 2027 原路線已放棄，目前不列為主要備案；若重新考慮，再核對適用年度與時程。ERC StG、CNRS CR、MCF 與臺灣教職保留為後續職涯候選，不沿用舊版的 2030 年固定申請安排。
